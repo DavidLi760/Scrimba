@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <div class="team">
+        <div class="team-name">
+          <span>HOME</span>
+        </div>
+        <div class="score" id="count-home">0</div>
+        <div class="buttons">
+          <button class="plus-btn" onclick="add1ToHome()">+1</button>
+          <button class="plus-btn" onclick="add2ToHome()">+2</button>
+          <button class="plus-btn" onclick="add3ToHome()">+3</button>
+        </div>
+      </div>
+      <button class="plus-btn" id="reset-btn" onclick="resetScores()">
+        RESET
+      </button>
+      <div class="team">
+        <div class="team-name">
+          <span>GUEST</span>
+        </div>
+        <div class="score" id="count-guest">0</div>
+        <div class="buttons">
+          <button class="plus-btn" onclick="add1ToGuest()">+1</button>
+          <button class="plus-btn" onclick="add2ToGuest()">+2</button>
+          <button class="plus-btn" onclick="add3ToGuest()">+3</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

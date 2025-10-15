@@ -1,0 +1,73 @@
+body {
+  background: rgb(133, 133, 133);
+}
+
+@font-face {
+  font-family: "Digital";
+  src: url("./digital-7.ttf") format("truetype");
+}
+
+#container {
+  display: flex;
+  width: 800px;
+  height: 400px;
+  justify-content: space-around;
+  margin: 0 auto;
+  border: 3px solid white;
+  background: rgb(31, 31, 85);
+  border-radius: 20px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  margin: auto 80px;
+}
+
+.score {
+  margin: 0 auto 20px auto;
+  background: black;
+  width: 200px;
+  height: 125px;
+}
+
+.team-name {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+#count-home, #count-guest {
+  display: flex;
+  font-size: 100px;
+  color: darkred;
+  margin: 10px auto 10px auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Digital", sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 15px 0 15px;
+}
+
+.plus-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background: rgb(31, 31, 85);
+  border: 1px solid rgb(167, 167, 167);
+  color: rgb(167, 167, 167);
+  text-shadow: 0 0 1px black;
+  font-family: "Digital", sans-serif;
+  font-size: 25px;
+}
+
+#reset-btn {
+  width: 150px;
+  margin: auto 0 50px 0;
+}
