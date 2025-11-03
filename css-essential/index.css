@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    background: #252525;
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+    align-items: center;
+    padding: 20px;
+}
+
+.icon {
+    width: 80px;
+}
+
+.bar {
+    margin-left: auto;
+}
+
+.logo {
+    color: whitesmoke;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 64px;
+    margin: 35px 50px;
+}
+
+.item-img {
+    width: 100%;
+    display: block;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+    padding: 0 20px;
+}
+
+button {
+    background: #cd6858;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 12px 20px;
+    align-self: center;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.chatbox {
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+    background-color: #dda15e;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display:flex;
+}
+
+.chatbox-img {
+    width: 60%;
+    margin: auto;
+}
